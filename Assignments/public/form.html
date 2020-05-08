@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p id="top" align="center"><img  src="./images/image 2.PNG" alt=""></p>
+    <div id="hm">
+        <h3><a href="index.html">Home</a></h3><hr>
+    </div>
+    <p align="right"><a href="#bottom">Bottom</a></p>
+    <h1><b></b>Saylani Registration Form</b></h1>
+        <form action="sub.html">
+            <table>
+                <tr>
+                    <td><b><label for="FN">First Name<sup>*</sup></label></b></td>
+                    <td><input type="text" name="First name" id="FN" placeholder="Enter first name" maxlength="30" size="30" required="required"/>
+                    (max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><b><label for="LN">Last Name</label></b></td>
+                    <td><input type="text" name="Last name" id="LN" placeholder="Enter last name" maxlength="30" size="30"/>
+                    (max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><b><label for="D">DATE OF BIRTH<sup>*</sup></label></b></td>
+                    <td><input type="date" name="date" id="D"><br></td>
+                </tr>
+                <tr>
+                    <td><b><label for="EM">EMAIL ID<sup>*</sup></label></b></td>
+                    <td><input type="email" name="email" id="EM" placeholder="Enter your email"><br></td> 
+                </tr>
+                <tr>
+                    <td>
+                        <b><label for="M">MOBILE NUMBER<sup>*</sup></label></b>
+                    </td>
+                    <td>
+                        <input type="tel" name="mobile no" id="M" placeholder="Enter your mobile number" size="15" maxlength="11">
+                        (11 digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><p>GENDER<sup>*</sup> &nbsp;</b>
+                    </td>
+                    <td><label for="M">Male</label>
+                        <input type="radio" name="gender" value="male" id="M" checked="checked">
+                        <label for="F">Female</label>
+                        <input type="radio" name="gender" value="female" id="F">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><label for="ADD">ADDRESS<sup>*</sup><label></b></td>
+                    <td><input type="text" name="address" placeholder="Enter your address" maxlength="50" size="50" ></td>
+                </tr>
+                <tr>
+                    <td><b><label for="C">CITY NAME<sup>*</sup></label></b></td>
+                    <td><input type="text" name="city" id="C" placeholder="Enter your city name" maxlength="30" size="30">
+                    (max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td> <b><label for="P">PIN CODE<sup>*</sup></label></b></td>
+                    <td><input type="number" name="number" maxlength="6" size="8" placeholder="Enter pin code">
+                        (6-digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><label for="S">STATE<sup>*</sup></label></b></td>
+                    <td><input type="text" name="state" id="S" placeholder="Enter state" maxlength="30" size="30">
+                    (max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><label for="C">COUNTRY<sup>*</sup></label></b>
+                    </td>
+                    <td>
+                        <input type="text" name="country" required="required" id="S" placeholder="Enter country">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><label for="H">HOBBIES</label></b>&emsp;
+                    </td>
+                    <td>Drawing<input type="checkbox" value="Drawing">&emsp;
+                        Singing<input type="checkbox" value="Singing">&emsp;
+                        Dancing<input type="checkbox" value="Dancing">&emsp;
+                        Sketching<input type="checkbox" value="Sketching"><br>
+                        <label for="O">Other</label>
+                        <input type="text" name="other" id="O">
+                    </td>
+                </tr>
+                <tr>
+                    <td id=qual><b>QUALIFICATION</b</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th>S.no</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of passing</th>
+                            </tr>
+                            <tr>
+                                <td>1.</td>
+                                <td>Class X</td>
+                                <td> <input type="text" name="board" maxlength="10" size="10"></td>
+                                <td> <input type="number" name="percentage" size="4" maxlength="4"></td>
+                                <td><input type="number" name="year" size="4" maxlength="4"></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Class XII</td>
+                                <td> <input type="text" name="board" maxlength="10" size="10"></td>
+                                <td> <input type="number" name="percentage" size="4" maxlength="4"></td>
+                                <td><input type="number" name="year" size="4" maxlength="4"></td>
+                            </tr>
+                                <td>3.</td>
+                                <td>Graduate</td>
+                                <td> <input type="text" name="board" maxlength="10" size="10"></td>
+                                <td> <input type="number" name="percentage" size="4" maxlength="4"></td>
+                                <td><input type="number" name="year" size="4" maxlength="4"></td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>Master</td>
+                                <td> <input type="text" name="board" maxlength="10" size="10"></td>
+                                <td> <input type="number" name="percentage" size="4" maxlength="4"></td>
+                                <td><input type="number" name="year" size="4" maxlength="4"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><label for="CA">COURSE APPLIED FOR<sup>*</sup>:</label></b>&ensp;&ensp;&ensp;
+                    </td>
+                    <td>BCA<input type="radio" name="course" checked="checked" value="BCA">&nbsp;
+                        B.com<input type="radio" name="course" value="B.com">&nbsp;
+                        B.sc<input type="radio" name="course" value="B.sc">&nbsp;
+                        B.A<input type="radio" name="course" value="B.A">
+                    </td>
+                </tr>
+            </table>
+        <center>
+            <input type="submit"value="Submit">
+            <input type="reset" value="Reset">
+        </center>
+        </form>
+    <p align="right"><a href="#top">Top</a></p>
+    <p id="bottom"></p>
+</body>
+</html>
