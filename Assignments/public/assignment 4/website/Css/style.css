@@ -1,0 +1,151 @@
+@font-face{
+    font-family: "myfont";
+    src: url(../Fonts/lobster/Lobster-Regular.ttf);
+}
+#maintopic
+{
+    font-family: myfont;
+    font-size: 2.5em;
+}
+.text >h3
+{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+} 
+
+.navbar
+{
+    background-color: #D7CCC8 !important;
+}
+/* .header
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+} */
+.slider
+{
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 435px)
+{
+    .slider
+    {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 379px)
+{
+    .slider
+    {
+        margin-top: 130px;
+    }
+}
+.bottom
+{
+    max-height: auto;
+    min-height: 30px;
+    background-color: #D7CCC8;
+}
+/* @media only screen and (min-width: 360px)
+{
+    .bottom
+    {
+        font-size: small;
+        font-weight: normal;
+    }
+} */
+.b1
+{
+    padding-top: 20px;
+}
+#bottext
+{
+    font-weight: bold;
+}
+#imagecontrol
+{
+    width: 60px;
+}
+.fa-shopping-cart,.fa-user
+{
+    font-size: 25px !important;
+}
+.nav-link
+{
+    font-weight: bold !important;
+}
+#headimage
+{
+    width: 70px;
+}
+
+li
+{
+    display: inline-block;
+}
+.fa-file-text-o,.fa-facebook,.fa-whatsapp
+{
+    font-size: 20px !important;
+    margin-left: 20px !important;
+}
+.fa-ship,.fa-phone,.fa-map-marker
+{
+    font-size: 50px !important;
+    margin-right: 15px !important;
+}
+.card1,.card2,.card3
+{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    box-shadow: 2px 4px 5px yellow;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cards
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.newcoll
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.newcoll > h1
+{
+    font-weight: bolder;
+}
+.text
+{
+    background-color: #D7CCC8 !important;
+    margin-top: 50px;
+    padding: 30px 0px 0px 30px;
+}
+.fb
+{
+    color: blue;
+}
+.boddy
+{
+    margin-top: 50px;
+}
+#thead
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dec
+{
+    padding: 10px 0px;
+}

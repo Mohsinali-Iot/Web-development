@@ -1,0 +1,65 @@
+@font-face{
+    font-family: "myfont";
+    src: url(../Fonts/lobster/Lobster-Regular.ttf);
+}
+#maintopic
+{
+    font-family: myfont;
+    font-size: 2.5em;
+}
+
+.navbar
+{
+    background-color: #D7CCC8 !important;
+}
+#imagecontrol
+{
+    width: 60px;
+}
+.header
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* bottom: 0px; */
+    left: 0px;
+} 
+.heading
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.product
+{
+    margin-top: 50px ;
+}
+.card
+{
+    margin-top: 50px !important;
+}
+.card-img-top
+{
+    height:500px !important;
+}
+.btn-primary
+{
+    width: 100% !important;
+    color: black !important;
+    background-color:#D7CCC8 !important;
+
+}
+.btn-primary:hover
+{
+    background-color: blue !important;
+    color: white !important;
+}
+.cdtxt
+{
+    background: black;
+    color: white;
+    box-shadow: 3px 4px 6px yellow
+}
+.cart
+{
+    margin-top: 20px;
+}
