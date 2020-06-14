@@ -1,4 +1,4 @@
-                                    // Chaper # 1 Alerts
+                        // Chaper # 1 Alerts
 // Question no 1:
 
     // alert("WELCOME TO OUR WEBSITE");
@@ -25,7 +25,7 @@
 
 
 
-                                            // chapter # 2
+                        // chapter # 2
 
 // Question no 1
 
@@ -84,7 +84,7 @@
 
 
 
-                                        // chapter # 3
+                        // chapter # 3
 
 
                             
@@ -111,7 +111,7 @@
     // document.write(visitor_name + " " + "has ordered" + " " + quantity + " " + product + " " + "on XYZ Clothing store")
 
 
-                                            // Chapters # 4 
+                        // Chapters # 4 
 
                     
 
@@ -310,7 +310,7 @@
 
 
 
-//                                               Chapter # 6
+//                           Chapter # 6
 
 // Question no 1:
 
@@ -394,7 +394,7 @@
 
 
 
-//                                              chapter # 9-11
+//                         chapter # 9-11
 
 // Question no 1:
         // var city_name=prompt("Enter City Name")
@@ -642,7 +642,7 @@
 
 
 
-                                        // chapter #   12-13
+                // chapter #   12-13
 
 // Question no 1:
 
@@ -764,7 +764,7 @@
         //         document.write("Wrong time")
         // }
 
-//                                      Chapter # 14-16
+//                     Chapter # 14-16
 
 
 // Question no 1:
@@ -928,13 +928,13 @@
 
 // Question no 15
 
-let array=["Apple","Samsung", "Motorola", "Nokia", "Sony","Haier"];
-document.write("<select>")
-for (i=0;i<array.length;i++)
-{
-        document.write("<option>" + array[i] + "</option>")
-}
-document.write("</select>")
+// let array=["Apple","Samsung", "Motorola", "Nokia", "Sony","Haier"];
+// document.write("<select>")
+// for (i=0;i<array.length;i++)
+// {
+//         document.write("<option>" + array[i] + "</option>")
+// }
+// document.write("</select>")
 
 
 //                      Chapter # 17-20
