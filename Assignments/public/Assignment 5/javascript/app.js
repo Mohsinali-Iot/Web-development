@@ -97,23 +97,6 @@
 
 // Question no 2:
 
-        <script type="text/javascript">
-
-        var visits = GetCookie("counter");
-
-        if (!visits) { visits = 1;
-
-        document.write("By the way, this is your first time here.");
-
-        }
-
-        else {
-
-        visits = parseInt(visits) + 1;
-
-        document.write("I note, you have been here " + visits + " times.");}
-
-     </script>   
 
 //Question no 3:
 
@@ -941,6 +924,17 @@
         // document.write("Output: " + word2 + "<br>")
         // document.write("Output: " + word3 + "<br>")
         // document.write("Output: " + word4 + "<br>"
+
+
+// Question no 15
+
+let array=["Apple","Samsung", "Motorola", "Nokia", "Sony","Haier"];
+document.write("<select>")
+for (i=0;i<array.length;i++)
+{
+        document.write("<option>" + array[i] + "</option>")
+}
+document.write("</select>")
 
 
 //                      Chapter # 17-20
