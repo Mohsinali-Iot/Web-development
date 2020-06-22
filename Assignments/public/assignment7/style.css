@@ -1,0 +1,53 @@
+#algn
+{
+    text-align: center;
+}
+.main
+{
+    background-color: blanchedalmond;
+    border: 1px solid green;
+    width:270px;
+    height: auto;
+    margin: auto;
+}
+.inputt
+{
+    width: 250px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.cl
+{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: grey;
+    color:white;
+}
+.oper
+{
+    width: 60px;
+    height: 45px;
+    background-color:lightseagreen;
+    font-size: 20px;
+}
+.btnmgn
+{
+    width: 60px;
+    padding: 10px;
+    margin: 5px 2px;
+    font-size: 20px;
+    background-color: grey;
+    color:white;
+}
+.clr
+
+{
+    
+    background-color: orange;
+    font-weight: bold;
+}
+.zero
+{
+    width: 130px;
+}
