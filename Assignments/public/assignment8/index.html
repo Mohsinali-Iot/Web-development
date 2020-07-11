@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html>
+<body>
+    <div>
+        <h1 class=heading>StopWatch</h1>
+    </div>
+    <div>
+        <h2 id="min" >0</h2>
+        <h2 id="sec">0</h2>
+        <h2 id="msec">0</h2>
+    </div>
+    <div>
+        <h3>Minutes</h3>
+        <h3>Seconds</h3>
+        <h3>M-Seconds</h3>
+    </div>
+    <div>
+        <button onmouseover="this.style.backgroundColor='red' ,style.color='white'" onmouseout="this.style.backgroundColor='white' ,style.color='black'" onfocus="this.style.backgroundColor='blue', style.color='black'"  onblur="this.style.backgroundColor='white', style.color='black'" onclick="start()" id="stbtn" >Start</button>
+        <button onmouseover="this.style.backgroundColor='red' ,style.color='white'" onmouseout="this.style.backgroundColor='white' ,style.color='black'" onfocus="this.style.backgroundColor='blue', style.color='black'"  onblur="this.style.backgroundColor='white', style.color='black'"   onclick="stop()" id="stpbtn">Stop/Pause</button>
+        <button onmouseover="this.style.backgroundColor='red' ,style.color='white'" onmouseout="this.style.backgroundColor='white' ,style.color='black'" onfocus="this.style.backgroundColor='blue', style.color='black'"  onblur="this.style.backgroundColor='white', style.color='black'"   onclick="reset()" id="rsetbtn">Reset</button>
+        <button onmouseover="this.style.backgroundColor='red' ,style.color='white'" onmouseout="this.style.backgroundColor='white' ,style.color='black'" onfocus="this.style.backgroundColor='blue', style.color='black'"  onblur="this.style.backgroundColor='white', style.color='black'"   onclick="record()" id="rec">Records</button>
+    </div>
+    <div id="records">
+        <h1 class="heading">Laps</h1>
+    </div>
+    <div>
+        <p id="text1">No Record</p>
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html> 
