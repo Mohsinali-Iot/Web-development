@@ -31,11 +31,23 @@ h3{
 }
 #records{
     margin-top: 100px;
-    /* background-color: white; */
 }
 #text1{
     background-color: white;
     color: black;
     text-align: center;
     font-size: large;
+}
+.div11{
+    display: inline-block;
+}
+
+#stbtn:hover,#stpbtn:hover,#rsetbtn:hover,#rec:hover{
+    background-color: red;
+    color: white;
+}
+#stbtn:disabled,#stpbtn:disabled,#rsetbtn:disabled,#rec:disabled{
+    background-color: black;
+    color: white;
+
 }
