@@ -1,0 +1,28 @@
+body{
+    background-color: cornsilk;
+}
+#main{
+    text-align: center;
+}
+#dbtn,#ebtn{
+    background-color: blueviolet;
+    margin-left: 20px;
+    width: 70px;
+    text-align: center;
+    color: white;
+}
+.liist{
+    text-decoration: none;
+}
+#rows{
+    display: flex;
+    margin-bottom: 10px;
+}
+#text
+{
+    width: 30%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+}
