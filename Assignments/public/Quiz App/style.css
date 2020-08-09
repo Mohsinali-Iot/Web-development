@@ -1,0 +1,39 @@
+#ques{
+    background-color: aqua;
+    text-align: center;
+    font-size: large;
+}
+.options{
+    /* background-color: black;
+    color: white; */
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+.options:hover{
+    background-color: black;
+    color: white;
+}
+#next{
+    text-align: center;
+    margin: 0px 0px 0px 50%;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+#alloptions{
+    list-style: none;
+}
+.active:focus{
+    background-color: black;
+    color: white;
+    /* background-color: white;
+    color: black; */
+}
+#quesans{
+    text-align: center;
+
+}
