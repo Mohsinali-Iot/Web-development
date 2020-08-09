@@ -37,3 +37,21 @@
     text-align: center;
 
 }
+#heading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+#score{
+    text-align: center;
+    font-size: 30px;
+    background-color: azure;
+
+}
+#quesans{
+    margin: 30px 0px;
+}
+#ques,#opt1,#opt2,#opt3,#opt4{
+    font-size: 25px;
+}

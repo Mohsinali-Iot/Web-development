@@ -20,15 +20,35 @@ var ques=[
         Correct_Ans:"9",
     },
     {
-        Questions:"What if your country name",
+        Questions:"Who was the inventor of Ctrl+C (copy), Ctrl+V (Paste ) and Ctrl+X (Cut)?",
         Options:[
-            "Pakistan",
-            "Afghanistan",
-            "Iran",
-            "UAE",
+            "Bill Gates",
+            "Larry Tesler",
+            "Christopher Latham Sholes",
+            "David Sundstrand",
         ],
-        Correct_Ans:"Pakistan"
+        Correct_Ans:"Larry Tesler"
     },
+    {
+        Questions:"Which of the following  is known as leap day or leap year day:",
+        Options:[
+            "Feb 29",
+            "Feb 28",
+            "March 1",
+            "Feb 1",
+        ],
+        Correct_Ans:"Feb 29"
+    },
+    {
+        Questions:"Where is the World’s longest sea bridge ?",
+        Options:[
+            "Japan",
+            "Russia",
+            "China",
+            "None of these",
+        ],
+        Correct_Ans:"China"
+    }
 ]
 let c=0
 var count=c
@@ -59,20 +79,6 @@ function myfunc(e)
 }
 function passans(e)
 {
-    var opt1=document.getElementById('opt1')
-    var opt2=document.getElementById('opt2')
-    var opt3=document.getElementById('opt3')
-    var opt4=document.getElementById('opt4')
-    opt1.style.backgroundColor='white'
-    opt1.style.color='black'
-    opt2.style.backgroundColor='white'
-    opt2.style.color='black'
-    opt3.style.backgroundColor='white'
-    opt3.style.color='black'
-    opt4.style.backgroundColor='white'
-    opt4.style.color='black'
-    e.style.backgroundColor='black'
-    e.style.color='white'
     checkans(e,c)
     counter()
     scores.innerHTML="<b>Your Score:</b>" + score;
