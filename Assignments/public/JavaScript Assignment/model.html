@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .imgcntrl{
+        width: 250px;
+        height: 280px;
+    }
+    .model-open{
+        display: block;
+    }
+</style>
+<body>
+
+
+    <div id="modal">
+    </div>
+    
+    <script>
+        var images=document.getElementById('modal')
+        var imgarr=new Array()
+        modal.classList.add('modal-open')
+        modal.classList.add('modal-close') 
+        console.log(images)
+        modal.classList.remove('modal-close');
+        console.log(images)
+        for(i=0;i<3;i++)
+        {
+            imgarr[i]=new Image()
+            if(i===0)
+            {
+                imgarr[i].setAttribute('src','mobile1.jpg')
+                images.appendChild(imgarr[i])
+                imgarr[i].setAttribute('onclick','img()')
+            }
+            else if(i===1)
+            {
+                imgarr[i].setAttribute('src','mobile2.jpg')
+                images.appendChild(imgarr[i])
+                imgarr[i].setAttribute('onclick','img()')
+            }
+            else if(i===2)
+            {
+                imgarr[i].setAttribute('src','mobile3.jpg')
+                images.appendChild(imgarr[i])
+                imgarr[i].setAttribute('onclick','img()')
+            }
+            
+        }
+        // console.log(images)
+        function img()
+        {
+            alert("hello")
+        }
+        function onClosedImagModal()
+    </script>
+</body>
+</html>
