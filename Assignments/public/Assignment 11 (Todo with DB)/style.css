@@ -1,0 +1,48 @@
+#main{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#namep,#roll_nop{
+    margin-left: 30px;
+}
+#data{
+    /* margin-left: 60px; */
+}
+#savebtn,#deleteallbtn{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    border-radius: 20px;
+}
+#deleteone{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+}
+#deleteone:hover,#deleteallbtn:hover,#savebtn:hover,#editdata:hover{
+    background-color:green;
+    color: honeydew;
+}
+#editdata{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+}
+#save{
+    /* background-color: ;
+    color: white; */
+}
+#tr{
+    background-color: black;
+    color: whitesmoke;
+}

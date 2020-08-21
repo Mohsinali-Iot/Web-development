@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDGU4gM1vYH8M2Ydg8Vv3BzLk1FDDjnmiA",
+          authDomain: "mohsin-assignment-173ba.firebaseapp.com",
+          databaseURL: "https://mohsin-assignment-173ba.firebaseio.com",
+          projectId: "mohsin-assignment-173ba",
+          storageBucket: "mohsin-assignment-173ba.appspot.com",
+          messagingSenderId: "297194046009",
+          appId: "1:297194046009:web:235d1a52a5023e0a4083e8",
+          measurementId: "G-E3FBZRBM56"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // firebase.analytics();
+      </script>
+    
+</head>
+<body>
+  <h1 id="main">TODO APP</h1>
+  <div id="save">
+      <h2>Enter New Data</h2>
+      <p>Name:<input type="text" name="name" id="name"></p>
+      <p>Roll No:<input type="text" name="roll no" id="roll"></p>
+  </div>
+  <button id='savebtn' onclick="savedata()">Save </button>
+  <button id='deleteallbtn' onclick="deleteall()">Delete All</button> 
+  <div>
+    <h2>Records</h2>
+    
+    <div id='tabdiv'>
+    </div>
+    <h2>Instructions</h2>
+    <ul>
+      <li>Type name and roll-no and click <b>'save' </b>button to save record in database</li>
+      <li>Click on <b>Delete All </b>button to delete all record from database as well as on screen </li>
+      <li>          When you click on <b>Save </b>Button data will show on screen along with two buttons <b>Edit</b> and <b>Delete</b> button
+        <ul>
+        <li>For delete particular record press <b>Delete</b> button which follows that record this will delete only that record for which you press <b>Delete</b> button Record will be deleted from database as well as from screen </li>
+        <li>If you want to edit some record first you type name and roll-no and then press <b>Edit</b> button your record will now edited in database as well as on screen </li>
+        </ul> 
+      </li>
+    </ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

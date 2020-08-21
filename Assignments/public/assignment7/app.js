@@ -8,6 +8,7 @@ function clearR()
 function number(num)
 {
     let r=document.getElementById("txt")
+    console.log(r)
     r.value+=num
 }
 
